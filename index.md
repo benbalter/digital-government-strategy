@@ -2,8 +2,6 @@
 layout: default
 ---
 
-
-
 ## Introduction
 
 *"I want us to ask ourselves every day, how are we using technology to make a real difference in people’s lives."*<br />– President Barack Obama
