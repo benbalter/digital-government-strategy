@@ -63,29 +63,7 @@ Through IT Reform, the Federal Government has made progress in foundational exec
 
 The Digital Government Strategy incorporates a broad range of input from government practitioners, the public, and private-sector experts. Two cross-governmental working groups – the Mobility Strategy and Web Reform Task Forces – provided guidance and recommendations for building a digital government. These groups worked with the Office of Management and Budget (OMB) and General Services Administration (GSA) to conduct current state research (e.g. the December 2011 State of the Federal Web Report[^12]) and explore solutions for the future of government digital services. Feedback was also incorporated from citizens and federal workers across the nation using online public dialogues, including the September 2011 *National Dialogue on Improving Federal Websites* and the January 2012 *National Dialogue on the Federal Mobility Strategy* which produced a combined total of 570 ideas and nearly 2,000 comments.[^13]
     
-<div class="well infographic hidden-phone left">
-  <h3>Figure 1: The Layers of Digital Services</h3>
-  <div class="well" id="customers">
-    <h4>"Customers"</h4>
-    <div class="row">
-      <div class="span1"><span class="btn">American People</span></div>
-      <div class="span1"><div class="btn" id="employees">Employees</div></div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="span1"><span class="btn btn-primary">Govt Digital Services</span></div>
-    <div class="span1"><span class="btn btn-primary">Private Digital Services</span></div>
-    <div class="span1"><div class="layer">Presentation Layer</div></div>
-  </div>
-  <div class="row">
-    <div class="span2"><span class="btn btn-primary">Systems, Processes, Management and Web APIs</span></div>
-    <div class="span1"><div class="layer">Platform Layer</div></div>
-  </div>
-  <div class="row">
-    <div class="span2"><span class="btn btn-primary">Open Data and Content (Information)</span></div>
-    <div class="span1"><div class="layer">Information Layer</div></div>
-  </div>
-</div>
+{% include infographic.html %}
 
 ### Conceptual Model
       
@@ -161,46 +139,7 @@ The private sector has proven an information-centric model for delivering digita
 
 To lay the foundation for opening data and content efficiently, effectively and accessibly, OMB will work with representatives from across government to develop and publish an open data, content, and web API policy for the Federal Government. This policy will leverage central coordination and leadership to develop guidelines, standards, and best practices for improved interoperability. To establish a "new default," the policy will require that newly developed IT systems are architected for openness and expose high-value[^22] data and content as web APIs at a discrete and digestible level of granularity with metadata tags[^23]. Under a presumption of openness, agencies must evaluate the information contained within these systems for release to other agencies and the public, publish it in a timely manner, make it easily accessible for external use as applicable, and post it at agency.gov/developer in a machine-readable format. 
 
-  <div class="row">
-    <div class="span8 offset2">
-    <table class="table table-striped table-bordered action-items">
-      <thead>
-        <tr>
-          <th rowspan="2">#</th>
-          <th rowspan="2">Owner(s)</th>
-          <th rowspan="2">Milestone Actions</th>
-          <th colspan="4">Timeframe (months)</th>
-        </tr>
-        <tr class="due-within">
-          <th>1</th>
-          <th>3</th>
-          <th>6</th>
-          <th>12</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr id="milestone-1-1">
-          <td class="action-id">1.1</td>
-          <td class="owner">OMB</td>
-          <td class="action">Issue government-wide open data, content, and web API policy and identify standards and best practices for improved interoperability.</td>
-          <td class="due-1"></td>
-          <td class="due-3"></td>
-          <td class="due-6 checked">&bull;</td>
-          <td class="due-12"></td>
-        </tr>
-        <tr>
-          <td class="action-id">1.2</td>
-          <td class="owner">Agencies</td>
-          <td class="action">Ensure all new IT systems follow the open data, content, and web API policy and operationalize agency.gov/developer pages. *[Within 6 months of release of open data policy – see [milestone 1.1](#milestone-1-1)]*</td>
-          <td class="due-1"></td>
-          <td class="due-3"></td>
-          <td class="due-6"></td>
-          <td class="due-12 checked">&bull;</td>
-        </tr>       
-      </tbody>
-    </table>
-    </div>
-  </div>
+{% include table1.html %} 
 
 ### 2. Make Existing High-Value Data and Content Available through Web APIs
 
@@ -216,56 +155,7 @@ Recognizing that change will not happen overnight, we need to adopt an efficient
   
 Given the scope, scale, and complexity of some of these systems, agencies will be asked to prioritize release of data and content so the most valuable information is made available first. In cases where the system supports a website, content must also be structured, published through web APIs and tagged appropriately. Agencies will be required to engage with their customers[^24] within three months to identify the highest priority systems to transition, and work internally across communications, content, and infrastructure teams (e.g. program leads, digital strategists, web managers, Chief Information Officers (CIOs), Chief Financial Officers (CFOs), Chief Technology Officers (CTOs), Chief Acquisition Officers (CAOs), Chief Public Affairs Officers, Geographic Information Officers (GIOs), and data managers to select the final candidates. GSA will help agencies develop web APIs through the Digital Services Innovation Center (see [section 3](#digital-services-center)). Additionally, Data.gov will be expanded to include a web API catalog to serve as an interactive directory of information made available to the public by agencies via web services so that customers may more readily utilize that information in their own applications. Web APIs posted on agencies’/developer pages will be automatically aggregated in this catalog.
   
-  <div class="row">
-    <div class="span8 offset2">   
-    <table class="table table-striped table-bordered action-items">
-      <thead>
-        <tr>
-          <th rowspan="2">#</th>
-          <th rowspan="2">Owner(s)</th>
-          <th rowspan="2">Milestone Actions</th>
-          <th colspan="4">Timeframe (months)</th>
-        </tr>
-        <tr class="due-within">
-          <th>1</th>
-          <th>3</th>
-          <th>6</th>
-          <th>12</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td class="action-id">2.1</td>
-          <td class="owner">Agencies</td>
-          <td class="action">Engage with customers to identify at least two existing major customer-facing services that contain high-value data or content as first-move candidates to make compliant with new open data, content, and web API policy.</td>
-          <td class="due-1"></td>
-          <td class="due-3 checked">&bull;</td>
-          <td class="due-6"></td>
-          <td class="due-12"></td>
-        </tr>
-        <tr>
-          <td class="action-id">2.2</td>
-          <td class="owner">Agencies</td>
-          <td markdown="1">Make high-value data and content in at least two existing major customer-facing systems available through web APIs, apply metadata tagging and publish a plan to transition additional high-value systems. [Within 6 months of release of open data policy – see [milestone 1.1](#milestone-1-1)].</td>
-          <td class="due-1"></td>
-          <td class="due-3"></td>
-          <td class="due-6"></td>
-          <td class="due-12 checked">&bull;</td>
-        </tr>
-        <tr>
-          <td class="action-id">2.3</td>
-          <td class="owner">GSA</td>
-          <td class="action">Expand Data.gov to include a web API catalog that centrally aggregates web APIs posted on agencies’/developer pages.</td>
-          <td class="due-1"></td>
-          <td class="due-3"></td>
-          <td class="due-6"></td>
-          <td class="due-12 checked">&bull;</td>
-        </tr>     
-      </tbody>
-    </table>
-
-    </div>
-  </div>
+{% include table2.html %}
   
 ## Part B. Shared Platform</h2>
 
@@ -315,84 +205,7 @@ A popular idea submitted during the National Dialogue on the Federal Mobility St
 
 * **Identify and recommend changes to help close gaps in policy and standards.** For instance, as new technologies are introduced into the federal environment, policies governing identity and credential management may need to be revised to allow the introduction of new solutions that work better in a mobile world. Equally, as new technologies emerge, telework rules may need to be revisited to allow employees to work from any location, as long as the device and connectivity are appropriately secure.
 
-
-  
-<div class="row">
-  <div class="span8 offset2">
-    <table class="table table-striped table-bordered action-items">
-    <thead>
-      <tr>
-        <th rowspan="2">#</th>
-        <th rowspan="2">Owner(s)</th>
-        <th rowspan="2">Milestone Actions</th>
-        <th colspan="4">Timeframe (months)</th>
-      </tr>
-      <tr class="due-within">
-        <th>1</th>
-        <th>3</th>
-        <th>6</th>
-        <th>12</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="action-id">3.1</td>
-        <td class="owner">GSA</td>
-        <td class="action">Establish a Digital Services Innovation Center to improve the government’s delivery of digital services.</td>
-        <td class="due-1 checked">&bull;</td>
-        <td class="due-3"></td>
-        <td class="due-6"></td>
-        <td class="due-12"></td>
-      </tr>
-      <tr>
-        <td class="action-id">3.2</td>
-        <td class="owner">OMB</td>
-        <td class="action">Convene a Digital Services Advisory Group to provide input on priorities for the Innovation Center activities and recommend government-wide best practices, guidance, and standards.</td>
-        <td class="due-1 checked">&bull;</td>
-        <td class="due-3"></td>
-        <td class="due-6"></td>
-        <td class="due-12"></td>
-      </tr>
-      <tr>
-        <td class="action-id">3.3</td>
-        <td class="owner">Advisory Group / Federal CIO Council</td>
-        <td class="action">Release government-wide bring-your-own-device (BYOD) guidance based on lessons learned from successful pilots at federal agencies.</td>
-        <td class="due-1"></td>
-        <td class="due-3 checked">&bull;</td>
-        <td class="due-6"></td>
-        <td class="due-12"></td>
-      </tr>
-      <tr>
-        <td class="action-id">3.4</td>
-        <td class="owner">Innovation Center</td>
-        <td class="action">Identify shared and open content management system solutions.</td>
-        <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6 checked">&bull;</td>
-        <td class="due-12"></td>
-      </tr>
-      <tr>
-        <td class="action-id">3.5</td>
-        <td class="owner">Innovation Center</td>
-        <td class="action">Provide support to help agencies develop web APIs.</td>
-        <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6 checked">&bull;</td>
-        <td class="due-12"></td>
-      </tr> 
-      <tr>
-      <td class="action-id">3.6</td>
-        <td class="owner">Innovation Center / Federal CIO Council</td>
-        <td class="action">Launch a shared mobile app development program.</td>
-        <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6"></td>
-        <td class="due-12 checked">&bull;</td>
-      </tr> 
-    </tbody>
-  </table>
-  </div>
-</div>
+{% include table3.html %}
 
 ### 4. Establish Intra-Agency Governance to Improve Delivery of Digital Services
 
@@ -400,46 +213,7 @@ At the agency-level, Agency CIOs are responsible[^26] for commodity IT services 
 
 Agencies must drive better decision-making across the organization about how best to spend resources on digital services and manage their data. The Digital Services Advisory Group (see [section 3](#digital-services-center)) will recommend guidelines to help agencies set up an effective governance structure where it does not yet exist. The guidance will suggest a range of approaches, but not prescribe specific structures, and set expectations for activities and outcomes. For example, as agencies establish new governance structures or strengthen existing ones, they will be required to establish specific, measurable goals for delivering better services at a lower cost (e.g. through domain consolidation) and set agency-wide standards for content lifecycle management, adoption of third-party online tools, mobile application delivery, and sharing (e.g. infrastructure and digital information).
     
-  <div class="row">
-    <div class="span8 offset2">
-  <table class="table table-striped table-bordered action-items">
-      <thead>
-        <tr>
-          <th rowspan="2">#</th>
-          <th rowspan="2">Owner(s)</th>
-          <th rowspan="2">Milestone Actions</th>
-          <th colspan="4">Timeframe (months)</th>
-        </tr>
-        <tr class="due-within">
-          <th>1</th>
-          <th>3</th>
-          <th>6</th>
-          <th>12</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr id="milestone-4-1">
-          <td class="action-id">4.1</td>
-          <td class="owner">Advisory Group</td>
-          <td class="action">Recommend guidelines on agency-wide governance structure for developing and delivering digital services and managing data.</td>
-          <td class="due-1 checked">&bull;</td>
-          <td class="due-3"></td>
-          <td class="due-6"></td>
-          <td class="due-12"></td>
-        </tr>
-        <tr>
-          <td class="action-id">4.2</td>
-          <td class="owner">Agencies</td>
-          <td class="action" markdown="1">Establish an agency-wide governance  structure for developing and delivering digital services. [Within 3 months of release of governance guidance – see *[milestone 4.1](#milestone-4-1)*.</td>
-          <td class="due-1 checked">&bull;</td>
-          <td class="due-3"></td>
-          <td class="due-6"></td>
-          <td class="due-12"></td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
+{% include table4.html %}
 
 ### 5. Shift to an Enterprise-Wide Asset Management and Procurement Model</a>
 
@@ -463,73 +237,7 @@ To jumpstart this shift, GSA will establish a government-wide contract vehicle f
 
 For their part, agencies will be required to develop and maintain an enterprise-wide inventory of their mobile devices and wireless service contracts, and include an evaluation of government-wide contract vehicles in their alternatives analysis for all new mobile-related procurements.
   
-<div class="row">
-  <div class="span8 offset2">
-    <table class="table table-striped table-bordered action-items">
-    <thead>
-      <tr>
-        <th rowspan="2">#</th>
-        <th rowspan="2">Owner(s)</th>
-        <th rowspan="2">Milestone Actions</th>
-        <th colspan="4">Timeframe (months)</th>
-      </tr>
-      <tr class="due-within">
-        <th>1</th>
-        <th>3</th>
-        <th>6</th>
-        <th>12</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="action-id">5.1</td>
-        <td class="owner">GSA</td>
-        <td class="action">Establish government-wide contract vehicle for mobile devices and wireless service.</td>                       
-        <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6 checked">&bull;</td>
-        <td class="due-12"></td>
-      </tr>
-      <tr>
-        <td class="action-id">5.2</td>
-        <td class="owner">Agencies</td>
-        <td class="action">Develop an enterprise-wide inventory of mobile devices and wireless service contracts.</td>
-        <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6 checked">&bull;</td>
-        <td class="due-12"></td>
-      </tr>
-      <tr>
-        <td class="action-id">5.3</td>
-        <td class="owner">Agencies</td>
-        <td class="action">Evaluate the government-wide contract vehicles in the alternatives analysis for all new mobile-related procurements.</td>
-        <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6"></td>
-        <td class="due-12 checked">&bull;</td>
-      </tr>
-      <tr>
-        <td class="action-id">5.4</td>
-        <td class="owner">Advisory Group / Federal CIO Council</td>
-        <td class="action">Develop models for the delivery of commercial mobile applications into the federal environment.</td>
-        <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6"></td>
-        <td class="due-12 checked">&bull;</td>
-      </tr>
-      <tr>
-        <td class="action-id">5.5</td>
-        <td class="owner">GSA</td>
-        <td class="action">Set up a government-wide mobile device management platform.</td>
-        <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6"></td>
-        <td class="due-12 checked">&bull;</td>
-      </tr> 
-    </tbody>
-  </table>      
-  </div>
-</div>
+{% include table5.html %}
   
 ## Part C. Customer-Centric
 
@@ -556,56 +264,7 @@ Using modern tools and technologies such as responsive web design[^32] and searc
       
 The dot gov domain guidance and procedures will be updated to help ensure all new digital services meet these improvement guidelines. Under the principle of "no new domains", criteria for approving new second-level domains will be strengthened and new domains will only be granted on an exception basis. For example, an agency may be granted a new single domain to host consolidated content previously spread across multiple domains, thus streamlining the customer experience and reducing redundant infrastructure. Domains will be approved or renewed only if they to comply with web-related federal standards, guidance, and regulations (e.g. adoption of the aforementioned guidelines, IPv6[^38], DNSSEC, continuous monitoring, and externally-issued credentials[^39]). In addition, the dot gov domain registration process will reinforce existing policies prohibiting the use of non-.gov (e.g. .org, .com) top-level domains.[^40] Through the Digital Services Innovation Center (see [section 3](#digital-services-center)), *GSA will provide tools, guidelines, and training to help agencies comply with these new policies and continue efforts to consolidate websites along topical lines.
     
-    
-<div class="row">
-  <div class="span8 offset2">
-    <table class="table table-striped table-bordered action-items">
-    <thead>
-      <tr>
-        <th rowspan="2">#</th>
-        <th rowspan="2">Owner(s)</th>
-        <th rowspan="2">Milestone Actions</th>
-        <th colspan="4">Timeframe (months)</th>
-      </tr>
-      <tr class="due-within">
-        <th>1</th>
-        <th>3</th>
-        <th>6</th>
-        <th>12</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="action-id">6.1</td>
-        <td class="owner">Advisory Group / Federal Web Managers Council</td>
-        <td class="action">Recommend guidelines for improving digital services and customer experience.</td>                          
-        <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6 checked">&bull;</td>
-        <td class="due-12"></td>
-      </tr>
-      <tr id="milestone-6-2">
-        <td class="action-id">6.2</td>
-        <td class="owner">GSA</td>
-        <td class="action">Update the dot gov domain guidance and procedures to help ensure all new digital services meet improvement guidelines and provide support to agencies.</td>          
-        <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6 checked">&bull;</td>
-        <td class="due-12"></td>
-      </tr>
-      <tr>
-        <td class="action-id">6.3</td>
-        <td class="owner">Agencies</td>
-        <td class="action" markdown="1">Ensure all new digital services follow digital services and customer experience improvement guidelines. [Within 6 months of release of improvement guidance – see [milestone 6.2](#milestone-6-2)]</td>
-        <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6"></td>
-        <td class="due-12 checked">&bull;</td>
-      </tr>
-    </tbody>
-  </table>      
-  </div>
-</div>
+{% include table6.html %}
   
 ### 7. Improve Priority Customer-Facing Services for Mobile Use
 
@@ -613,46 +272,7 @@ The general public and our government workforce should be able to access governm
 
 Agencies will be required to engage their customers within three months to identify the highest priority services to optimize for mobile use, and work internally across communications, content, and infrastructure teams to select their final candidates. They will also be required to publish a plan for improving additional existing services as practical.     
   
-<div class="row">
-  <div class="span8 offset2">
-    <table class="table table-striped table-bordered action-items">
-    <thead>
-      <tr>
-        <th rowspan="2">#</th>
-        <th rowspan="2">Owner(s)</th>
-        <th rowspan="2">Milestone Actions</th>
-        <th colspan="4">Timeframe (months)</th>
-      </tr>
-      <tr class="due-within">
-        <th>1</th>
-        <th>3</th>
-        <th>6</th>
-        <th>12</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="action-id">7.1</td>
-        <td class="owner">Agencies</td>
-        <td class="action">Engage with customers to identify at least two existing priority customer-facing services to optimize for mobile use.</td>                             
-        <td class="due-1"></td>
-        <td class="due-3 checked">&bull;</td>
-        <td class="due-6"></td>
-        <td class="due-12"></td>
-      </tr>
-      <tr>
-        <td class="action-id">7.2</td>
-        <td class="owner">Agencies</td>
-        <td class="action">Optimize at least two existing priority customer-facing services for mobile use and publish a plan for improving additional existing services. [Within 6 months of release of digital services improvement guidance – see [milestone 6.2](#milestone-6-2)]</td>                       
-        <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6"></td>
-        <td class="due-12 checked">&bull;</td>
-      </tr>
-    </tbody>
-  </table>      
-  </div>
-</div>  
+{% include table7.html %}  
   
 ### 8. Measure Performance and Customer Satisfaction to Improve Service Delivery
 
@@ -665,46 +285,7 @@ Objective performance measures should drive the development and delivery of effe
 
 To enable data-driven decisions on service performance, agencies will be required to use analytics and customer satisfaction measurement tools on all .gov websites within 6 months. To help these efforts, the Digital Services Innovation Center (see [Section 3](#digital-services-center)) will identify common tools for agencies to use that will enable aggregation of this data at the federal level. Common tools will give us the ability – for the first time – to take a government-wide view of how well we serve our customers and opens up new possibilities for consolidating and improving the federal web space and the growing number of mobile services.
 
-<div class="row">
-  <div class="span8 offset2">
-    <table class="table table-striped table-bordered action-items">
-    <thead>
-      <tr>
-        <th rowspan="2">#</th>
-        <th rowspan="2">Owner(s)</th>
-        <th rowspan="2">Milestone Actions</th>
-        <th colspan="4">Timeframe (months)</th>
-      </tr>
-      <tr class="due-within">
-        <th>1</th>
-        <th>3</th>
-        <th>6</th>
-        <th>12</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr id="milestone-8-1">
-        <td class="action-id">8.1</td>
-        <td class="owner">Innovation Center</td>
-        <td class="action">Identify tools and guidance for measuring performance and customer satisfaction on digital services.</td>    
-        <td class="due-1"></td>
-        <td class="due-3 checked">&bull;</td>
-        <td class="due-6"></td>
-        <td class="due-12"></td>
-      </tr>
-      <tr>
-        <td class="action-id">8.2</td>
-        <td class="owner">Agencies</td>
-        <td class="action" markdown="1">Implement performance and customer satisfaction measuring tools on all .gov websites. [Within 3 months of release of tools and guidance – see [milestone 8.1](#milestone-8-1)]</td>           
-        <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6 checked">&bull;</td>
-        <td class="due-12"></td>
-      </tr>
-    </tbody>
-  </table>      
-  </div>
-</div>  
+{% include table9.html %}
 
 ## Part D. Security and Privacy
 
@@ -720,37 +301,7 @@ Agencies need to continue to integrate effective security and privacy measures i
 
 Going forward, we must pilot, document, and rapidly scale new approaches to secure data and mobile technologies and address privacy concerns (see [section 3](#digital-services-center) for role of the Digital Services Advisory Group in facilitating this process). Such pilots and documentation will help advance our security posture and communicate the Federal Government’s expectations on product capabilities to the private sector. Shifting to the cloud is one area of opportunity. For example, if applications, operating systems, and data reside in an appropriately secured[^44] cloud environment rather than on a device, this will limit the potential impact to an agency in the event a device is lost, stolen, or compromised. Other opportunity areas include adopting advanced mobile device management solutions to support continuous monitoring, strengthening identity and access management, and accepting externally-issued credentials on public-facing websites. 
 
-<div class="row">
-  <div class="span8 offset2">
-    <table class="table table-striped table-bordered action-items">
-    <thead>
-      <tr>
-        <th rowspan="2">#</th>
-        <th rowspan="2">Owner(s)</th>
-        <th rowspan="2">Milestone Actions</th>
-        <th colspan="4">Timeframe (months)</th>
-      </tr>
-      <tr class="due-within">
-        <th>1</th>
-        <th>3</th>
-        <th>6</th>
-        <th>12</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="action-id">9.1</td>
-        <td class="owner">DHS / DOD / NIST</td>
-        <td class="action">Develop government-wide mobile and wireless security baseline (includes security reference architectures.).</td> 
-        <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6"></td>
-        <td class="due-12 checked">&bull;</td>
-      </tr>
-    </tbody>
-  </table>
-  </div>
-</div>  
+{% include table9.html %}
   
 ### 10. Evaluate and Streamline Security and Privacy Processes
 
@@ -758,55 +309,7 @@ Given the realities of a rapidly changing technology landscape, we must continua
 
 As good stewards of data security and privacy, the Federal Government must ensure that there are safeguards to prevent the improper collection, retention, use or disclosure of sensitive data such as personally identifiable information (PII).[^45] These safeguards should be regularly reviewed and updated as technology use, capability, and architectures advance so they do not unnecessarily stifle the government’s ability to architect for openness and engage with the public. The Federal CIO Council’s Privacy Committee will work with NIST and the National Archives and Records Administration (NARA) to develop guidelines for standardized implementation of privacy controls in a digital environment and educate key agency privacy and legal officials on the latest technology advances and options for addressing digital privacy (e.g. data collection and individual notice) as well as records retention and security issues. 
 
-<div class="row">
-  <div class="span8 offset2">
-    <table class="table table-striped table-bordered action-items">
-    <thead>
-      <tr>
-        <th rowspan="2">#</th>
-        <th rowspan="2">Owner(s)</th>
-        <th rowspan="2">Milestone Actions</th>
-        <th colspan="4">Timeframe (months)</th>
-      </tr>
-      <tr class="due-within">
-        <th>1</th>
-        <th>3</th>
-        <th>6</th>
-        <th>12</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="action-id">10.1</td>
-        <td class="owner">NIST</td>
-        <td class="action">Report on NIST’s ongoing work in mobile technology, including the applicability of NIST’s standards and guidelines to mobile devices and platforms.</td> 
-        <td class="due-1"></td>
-        <td class="due-3">&bull;</td>
-        <td class="due-6"></td>
-        <td class="due-12"></td>
-      </tr>
-      <tr>
-        <td class="action-id">10.2</td>
-        <td class="owner">Advisory Group / Federal CIO Council</td>
-        <td class="action">Evaluate opportunities to accelerate the secure adoption of mobile technologies into the federal environment at reduced cost.</td> 
-        <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6 checked">&bull;</td>
-        <td class="due-12"></td>
-      </tr>
-      <tr>
-        <td class="action-id">10.3</td>
-        <td class="owner">Federal CIO Council / NIST / NARA</td>
-        <td class="action">Develop guidelines for standardized implementation of digital privacy controls and educate agency privacy and legal officials on options for addressing digital privacy, records retention, and security issues.</td> 
-        <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6 checked">&bull;</td>
-        <td class="due-12"></td>
-      </tr>
-    </tbody>
-  </table>
-  </div>
-</div>  
+{% include table10.html %}
   
 ## Conclusion
       
@@ -824,329 +327,7 @@ Ultimately, this strategy aims to be disruptive. It provides a platform to funda
       
 The following table captures all milestones in the Digital Government Strategy.    
       
-<div class="row">
-  <div class="span8 offset2">
-    <table class="table table-striped table-bordered action-items">
-    <thead>
-      <tr>
-        <th rowspan="2">#</th>
-        <th rowspan="2">Owner(s)</th>
-        <th rowspan="2">Milestone Actions</th>
-        <th colspan="4">Timeframe (months)</th>
-      </tr>
-      <tr class="due-within">
-        <th>1</th>
-        <th>3</th>
-        <th>6</th>
-        <th>12</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr class="section">
-        <td colspan="7"><h3>Part A: Information Centric</h3></td>
-      </tr>
-      <tr class="sub-section">
-        <td colspan="7"><h4>1. Make Open Data, Content, and Web APIs the New Default</h4></td>
-      </tr>
-       <tr>
-        <td class="action-id">1.1</td>
-        <td class="owner">OMB</td>
-        <td class="action">Issue government-wide open data, content, and web API policy and identify standards and best practices for improved interoperability.</td>
-        <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6 checked">&bull;</td>
-        <td class="due-12"></td>
-      </tr>
-      <tr>
-        <td class="action-id">1.2</td>
-        <td class="owner">Agencies</td>
-        <td class="action" markdown="1">Ensure all new IT systems follow the open data, content, and web API policy and operationalize agency.gov/developer pages. *[Within 6 months of release of open data policy – see [milestone 1.1](milestone-1-1)]*</td>
-        <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6"></td>
-        <td class="due-12 checked">&bull;</td>
-      </tr>
-      <tr class="sub-section">
-        <td colspan="7"><h4>2. Make Existing High-Value Data and Content Available through Web APIs</h4></td>
-      </tr>   
-      <tr>
-        <td class="action-id">2.1</td>
-        <td class="owner">Agencies</td>
-        <td class="action">Engage with customers to identify at least two existing major customer-facing services that contain high-value data or content as first-move candidates to make compliant with new open data, content, and web API policy.</td>
-        <td class="due-1"></td>
-        <td class="due-3 checked">&bull;</td>
-        <td class="due-6"></td>
-        <td class="due-12"></td>
-      </tr>
-      <tr>
-        <td class="action-id">2.2</td>
-        <td class="owner">Agencies</td>
-        <td markdown="1">Make high-value data and content in at least two existing major customer-facing systems available through web APIs, apply metadata tagging and publish a plan to transition additional high-value systems. *[Within 6 months of release of open data policy – see [milestone 1.1](#milestone-1-1)]*.</td>
-        <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6"></td>
-        <td class="due-12 checked">&bull;</td>
-      </tr>
-      <tr>
-        <td class="action-id">2.3</td>
-        <td class="owner">GSA</td>
-        <td class="action">Expand Data.gov to include a web API catalog that centrally aggregates web APIs posted on agencies’/developer pages.</td>
-        <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6"></td>
-        <td class="due-12 checked">&bull;</td>
-      </tr>
-      <tr class="section">
-        <td colspan="7"><h3>Part B: Shared Platform</h3></td>
-      </tr>
-      <tr class="sub-section">
-        <td colspan="7"><h4>3. Establish a Digital Services Innovation Center and Advisory Group</h4></td>
-      </tr>
-      <tr>
-        <td class="action-id">3.1</td>
-        <td class="owner">GSA</td>
-        <td class="action">Establish a Digital Services Innovation Center to improve the government’s delivery of digital services.</td>
-        <td class="due-1 checked">&bull;</td>
-        <td class="due-3"></td>
-        <td class="due-6"></td>
-        <td class="due-12"></td>
-      </tr>
-      <tr>
-        <td class="action-id">3.2</td>
-        <td class="owner">OMB</td>
-        <td class="action">Convene a Digital Services Advisory Group to provide input on priorities for the Innovation Center activities and recommend government-wide best practices, guidance, and standards.</td>
-        <td class="due-1 checked">&bull;</td>
-        <td class="due-3"></td>
-        <td class="due-6"></td>
-        <td class="due-12"></td>
-      </tr>
-      <tr>
-        <td class="action-id">3.3</td>
-        <td class="owner">Advisory Group / Federal CIO Council</td>
-        <td class="action">Release government-wide bring-your-own-device (BYOD) guidance based on lessons learned from successful pilots at federal agencies.</td>
-        <td class="due-1"></td>
-        <td class="due-3 checked">&bull;</td>
-        <td class="due-6"></td>
-        <td class="due-12"></td>
-      </tr>
-      <tr>
-        <td class="action-id">3.4</td>
-        <td class="owner">Innovation Center</td>
-        <td class="action">Identify shared and open content management system solutions.</td>
-        <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6 checked">&bull;</td>
-        <td class="due-12"></td>
-      </tr>
-      <tr>
-        <td class="action-id">3.5</td>
-        <td class="owner">Innovation Center</td>
-        <td class="action">Provide support to help agencies develop web APIs.</td>
-        <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6 checked">&bull;</td>
-        <td class="due-12"></td>
-      </tr> 
-      <tr>
-      <td class="action-id">3.6</td>
-        <td class="owner">Innovation Center / Federal CIO Council</td>
-        <td class="action">Launch a shared mobile app development program.</td>
-        <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6"></td>
-        <td class="due-12 checked">&bull;</td>
-      </tr>
-      <tr class="sub-section">
-        <td colspan="7"><h4>4. Establish Intra-Agency Governance to Improve Delivery of Digital Services</h4></td>
-      </tr>
-      <tr>
-        <td class="action-id">4.1</td>
-        <td class="owner">Advisory Group</td>
-        <td class="action">Recommend guidelines on agency-wide governance structure for developing and delivering digital services and managing data.</td>
-        <td class="due-1 checked">&bull;</td>
-        <td class="due-3"></td>
-        <td class="due-6"></td>
-        <td class="due-12"></td>
-      </tr>
-      <tr>
-        <td class="action-id">4.2</td>
-        <td class="owner">Agencies</td>
-        <td class="action">Establish an agency-wide governance structure for developing and delivering digital services. *[Within 3 months of release of governance guidance – see [milestone 4.1](#milestone-4-1)]*.</td>
-        <td class="due-1 checked">&bull;</td>
-        <td class="due-3"></td>
-        <td class="due-6"></td>
-        <td class="due-12"></td>
-      </tr> 
-      <tr>
-      <tr class="sub-section">
-        <td colspan="7"><h4>5. Shift to an Enterprise-Wide Asset Management and Procurement Model</h4></td>
-      </tr>
-
-        <td class="action-id">5.1</td>
-        <td class="owner">GSA</td>
-        <td class="action">Establish government-wide contract vehicle for mobile devices and wireless service.</td>                       <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6 checked">&bull;</td>
-        <td class="due-12"></td>
-      </tr>
-      <tr>
-        <td class="action-id">5.2</td>
-        <td class="owner">Agencies</td>
-        <td class="action">Develop an enterprise-wide inventory of mobile devices and wireless service contracts.</td>
-        <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6 checked">&bull;</td>
-        <td class="due-12"></td>
-      </tr>
-      <tr>
-        <td class="action-id">5.3</td>
-        <td class="owner">Agencies</td>
-        <td class="action">Evaluate the government-wide contract vehicles in the alternatives analysis for all new mobile-related procurements.</td>
-        <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6"></td>
-        <td class="due-12 checked">&bull;</td>
-      </tr>
-      <tr>
-        <td class="action-id">5.4</td>
-        <td class="owner">Advisory Group / Federal CIO Council</td>
-        <td class="action">Develop models for the delivery of commercial mobile applications into the federal environment.</td>
-        <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6"></td>
-        <td class="due-12 checked">&bull;</td>
-      </tr>
-      <tr>
-        <td class="action-id">5.5</td>
-        <td class="owner">GSA</td>
-        <td class="action">Set up a government-wide mobile device management platform.</td>
-        <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6"></td>
-        <td class="due-12 checked">&bull;</td>
-      </tr>
-      <tr class="section">
-        <td colspan="7"><h3>Part C: Customer-Centric</h3></td>
-      </tr>
-      <tr class="sub-section">
-        <td colspan="7"><h4>6. Deliver Better Digital Services Using Modern Tools and Technologies</h4></td>
-      </tr> 
-      <tr>
-        <td class="action-id">6.1</td>
-        <td class="owner">Advisory Group / Federal Web Managers Council</td>
-        <td class="action">Recommend guidelines for improving digital services and customer experience.</td>                          <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6 checked">&bull;</td>
-        <td class="due-12"></td>
-      </tr>
-      <tr>
-        <td class="action-id">6.2</td>
-        <td class="owner">GSA</td>
-        <td class="action">Update the dot gov domain guidance and procedures to help ensure all new digital services meet improvement guidelines and provide support to agencies.</td>          
-        <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6 checked">&bull;</td>
-        <td class="due-12"></td>
-      </tr>
-      <tr>
-        <td class="action-id">6.3</td>
-        <td class="owner">Agencies</td>
-        <td class="action" markdown="1">Ensure all new digital services follow digital services and customer experience improvement guidelines. *[Within 6 months of release of improvement guidance – see [milestone 6.2](#milestone-6-2)]*</td>
-        <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6"></td>
-        <td class="due-12 checked">&bull;</td>
-      </tr>
-      <tr class="sub-section">
-        <td colspan="7"><h4>7. Improve Priority Customer Facing Services for Mobile Use</h4></td>
-      </tr> 
-      <tr>
-        <td class="action-id">7.1</td>
-        <td class="owner">Agencies</td>
-        <td class="action">Engage with customers to identify at least two existing priority customer-facing services to optimize for mobile use.</td>                             
-        <td class="due-1"></td>
-        <td class="due-3 checked">&bull;</td>
-        <td class="due-6"></td>
-        <td class="due-12"></td>
-      </tr>
-      <tr>
-        <td class="action-id">7.2</td>
-        <td class="owner">Agencies</td>
-        <td class="action">Optimize at least two existing priority customer-facing services for mobile use and publish a plan for improving additional existing services. *[Within 6 months of release of digital services improvement guidance – see [milestone 6.2](#milestone-6-2)]*</td>                       <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6"></td>
-        <td class="due-12 checked">&bull;</td>
-      </tr>
-      <tr class="sub-section">
-        <td colspan="7"><h4>8. Measure Performance and Customer Satisfaction to Improve Service Delivery</h4></td>
-      </tr> 
-      <tr>
-        <td class="action-id">8.1</td>
-        <td class="owner">Innovation Center</td>
-        <td class="action">Identify tools and guidance for measuring performance and customer satisfaction on digital services.</td>    
-        <td class="due-1"></td>
-        <td class="due-3 checked">&bull;</td>
-        <td class="due-6"></td>
-        <td class="due-12"></td>
-      </tr>
-      <tr>
-        <td class="action-id">8.2</td>
-        <td class="owner">Agencies</td>
-        <td class="action">Implement performance and customer satisfaction measuring tools on all .gov websites. [Within 3 months of release of tools and guidance – see [milestone 8.1](#milestone-8-1)]</td>           
-        <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6 checked">&bull;</td>
-        <td class="due-12"></td>
-      </tr>
-      <tr class="section">
-        <td colspan="7"><h3>Part D: Security and Privacy</h3></td>
-      </tr>
-      <tr class="sub-section">
-        <td colspan="7"><h4>9. Promote the Safe and Secure Adoption of New Technologies</h4></td>
-      </tr>
-      <tr>
-        <td class="action-id">9.1</td>
-        <td class="owner">DHS / DOD / NIST</td>
-        <td class="action">Develop government-wide mobile and wireless security baseline (includes security reference architectures.).</td> 
-        <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6"></td>
-        <td class="due-12 checked">&bull;</td>
-      </tr>
-      <tr class="sub-section">
-        <td colspan="7"><h4>10. Evaluate and Streamline Security and Privacy Processes</h4></td>
-      </tr>
-      <tr>
-        <td class="action-id">10.1</td>
-        <td class="owner">NIST</td>
-        <td class="action">Report on NIST’s ongoing work in mobile technology, including the applicability of NIST’s standards and guidelines to mobile devices and platforms.</td> 
-        <td class="due-1"></td>
-        <td class="due-3">&bull;</td>
-        <td class="due-6"></td>
-        <td class="due-12"></td>
-      </tr>
-      <tr>
-        <td class="action-id">10.2</td>
-        <td class="owner">Advisory Group / Federal CIO Council</td>
-        <td class="action">Evaluate opportunities to accelerate the secure adoption of mobile technologies into the federal environment at reduced cost.</td> 
-        <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6 checked">&bull;</td>
-        <td class="due-12"></td>
-      </tr>
-      <tr>
-        <td class="action-id">10.3</td>
-        <td class="owner">Federal CIO Council / NIST / NARA</td>
-        <td class="action">Develop guidelines for standardized implementation of digital privacy controls and educate agency privacy and legal officials on options for addressing digital privacy, records retention, and security issues.</td> 
-        <td class="due-1"></td>
-        <td class="due-3"></td>
-        <td class="due-6 checked">&bull;</td>
-        <td class="due-12"></td>
-      </tr>                 
-    </tbody>
-  </table>
-  </div>
-</div>
+{% include appendix.html %}
 
 [^1]: Source for "The Speed of Digital Information": [http://mashable.com/2011/08/23/virginia-earthquake/](http://mashable.com/2011/08/23/virginia-earthquake/). Sources for "The Rapidly Changing Mobile Landscape": [http://hugin.info/1061/R/1561267/483187.pdf](http://hugin.info/1061/R/1561267/483187.pdf), [http://www.idc.com/getdoc.jsp?containerId=prUS23028711](http://www.idc.com/getdoc.jsp?containerId=prUS23028711), [http://pewinternet.org/Reports/2012/Smartphone-Update-2012/Findings.aspx](http://pewinternet.org/Reports/2012/Smartphone-Update-2012/Findings.aspx), [http://tech.fortune.cnn.com/2011/02/07/idc-smartphone-shipment-numbers-passed-pc-in-q4-2010/](http://tech.fortune.cnn.com/2011/02/07/idc-smartphone-shipment-numbers-passed-pc-in-q4-2010/).  
 
