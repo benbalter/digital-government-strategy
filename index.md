@@ -2,17 +2,10 @@
 layout: default
 ---
 
-<div class="hero-unit" id="top" markdown="1">
 
-<img id="seal" alt="Official Seal of the Office of Management and Budget, Executive Office of the President" src="assets/img/seal.png" />
- 
-# Digital Government
-
-Building a 21st Century Platform to Better Serve the American People 
-
-</div>
 
 ## Introduction
+
 *"I want us to ask ourselves every day, how are we using technology to make a real difference in people’s lives."*<br />– President Barack Obama
 {.quote}
 
