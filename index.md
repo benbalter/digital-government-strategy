@@ -13,7 +13,7 @@ Building a 21st Century Platform to Better Serve the American People
 </div>
 
 ## Introduction
-*"I want us to ask ourselves every day, how are we using technology to make a real difference in people’s lives."*<br />– President Barack Obama*
+*"I want us to ask ourselves every day, how are we using technology to make a real difference in people’s lives."*<br />– President Barack Obama
 {.quote}
 
 <div class="well left" markdown="1">
@@ -96,7 +96,7 @@ The ***platform layer*** includes all the systems and processes used to manage t
 
 The ***presentation layer*** defines the manner in which information is organized and provided to customers. It represents the way the government and private sector deliver government information (e.g., data or content) digitally, whether through websites,[^16] mobile applications, or other modes of delivery.
 
-These three layers separate information *creation* from information* presentation* – allowing us to create content and data once, and then use it in different ways. In effect, this model represents a fundamental shift from the way our government provides digital services today. 
+These three layers separate information *creation* from information *presentation* – allowing us to create content and data once, and then use it in different ways. In effect, this model represents a fundamental shift from the way our government provides digital services today. 
       
 ### Strategy Principles
 
@@ -153,7 +153,7 @@ The private sector has proven an information-centric model for delivering digita
       
 ### 1. Make Open Data, Content, and Web APIs the New Default
 
-<div class="well left">
+<div class="well left" markdown="1">
   ### Fueling the App Economy
 
   The City of San Francisco releases its raw public transportation data on train routes, schedules, and to-the-minute location updates directly to the public through web services. This has enabled citizen developers to write over 10 different mobile applications to help the public navigate San Francisco’s public transit systems—more services than the city could provide if it focused on presentation development rather than opening the data publicly through web services.
@@ -191,7 +191,7 @@ To lay the foundation for opening data and content efficiently, effectively and 
         <tr>
           <td class="action-id">1.2</td>
           <td class="owner">Agencies</td>
-          <td class="action">Ensure all new IT systems follow the open data, content, and web API policy and operationalize agency.gov/developer pages*. [Within 6 months of release of open data policy – see [milestone 1.1](#milestone-1-1)]*</td>
+          <td class="action">Ensure all new IT systems follow the open data, content, and web API policy and operationalize agency.gov/developer pages. *[Within 6 months of release of open data policy – see [milestone 1.1](#milestone-1-1)]*</td>
           <td class="due-1"></td>
           <td class="due-3"></td>
           <td class="due-6"></td>
@@ -554,7 +554,7 @@ Using modern tools and technologies such as responsive web design[^32] and searc
 * Approaches for using customer feedback to make improvements; and
 * Considerations to support the adoption of an information-centric security model.
       
-The dot gov domain guidance and procedures will be updated to help ensure all new digital services meet these improvement guidelines. Under the principle of "no new domains", criteria for approving new second-level domains will be strengthened and new domains will only be granted on an exception basis. For example, an agency may be granted a new single domain to host consolidated content previously spread across multiple domains, thus streamlining the customer experience and reducing redundant infrastructure. Domains will be approved or renewed only if they to comply with web-related federal standards, guidance, and regulations (e.g. adoption of the aforementioned guidelines, IPv6[^38], DNSSEC, continuous monitoring, and externally-issued credentials[^39]). In addition, the dot gov domain registration process will reinforce existing policies prohibiting the use of non-.gov (e.g. .org, .com) top-level domains.[^40] Through the Digital Services Innovation Center (see [section 3](#digital-services-center)),* *GSA will provide tools, guidelines, and training to help agencies comply with these new policies and continue efforts to consolidate websites along topical lines.
+The dot gov domain guidance and procedures will be updated to help ensure all new digital services meet these improvement guidelines. Under the principle of "no new domains", criteria for approving new second-level domains will be strengthened and new domains will only be granted on an exception basis. For example, an agency may be granted a new single domain to host consolidated content previously spread across multiple domains, thus streamlining the customer experience and reducing redundant infrastructure. Domains will be approved or renewed only if they to comply with web-related federal standards, guidance, and regulations (e.g. adoption of the aforementioned guidelines, IPv6[^38], DNSSEC, continuous monitoring, and externally-issued credentials[^39]). In addition, the dot gov domain registration process will reinforce existing policies prohibiting the use of non-.gov (e.g. .org, .com) top-level domains.[^40] Through the Digital Services Innovation Center (see [section 3](#digital-services-center)), *GSA will provide tools, guidelines, and training to help agencies comply with these new policies and continue efforts to consolidate websites along topical lines.
     
     
 <div class="row">
@@ -816,9 +816,9 @@ The roadmap actions outlined within this Digital Government Strategy form a seri
 
 First, we must enable citizens and an increasingly mobile federal workforce to securely access high-quality digital government information, data and services – "*anywhere, anytime, on any device."* By operationalizing an information-centric model, we can help agencies securely architect systems for interoperability and openness. Doing so will allow agencies to modernize their content publication model and deliver better, device-agnostic digital services at a lower cost. In addition, by providing machine-readable connections to government data and services, government agencies, businesses, and independent innovators can directly access the building blocks of government – recombining them to create new services or connecting them with existing services to streamline operations. 
 
- Secondly, we must ensure that as the government adjusts to this new digital world, we build the modern infrastructure needed to support digital government efforts and leverage the Federal Government’s buying power to reduce costs. Taking what we have learned from the previous transition in moving government information and services online, we now have a chance to do mobile* "right"* from the beginning by procuring and managing devices, applications, and data in a smart, secure, and affordable manner. Establishing a Digital Services Innovation Center and Advisory Group will help lay the foundation for a well-coordinated approach toward these objectives. 
+ Secondly, we must ensure that as the government adjusts to this new digital world, we build the modern infrastructure needed to support digital government efforts and leverage the Federal Government’s buying power to reduce costs. Taking what we have learned from the previous transition in moving government information and services online, we now have a chance to do mobile *"right"* from the beginning by procuring and managing devices, applications, and data in a smart, secure, and affordable manner. Establishing a Digital Services Innovation Center and Advisory Group will help lay the foundation for a well-coordinated approach toward these objectives. 
  
-Ultimately, this strategy aims to be disruptive. It provides a platform to fundamentally shift how government connects with, and provides services to, the American people.* *It gives the federal workforce the tools needed to carry out their mission of delivering services to all citizens – whether to a warfighter in the field retrieving geospatial imagery information; a medical researcher sharing the latest bio specimen data sets for a rare form of cancer; or a rural farmer accessing a real-time forecast of seasonal precipitation. It creates a space for citizens to become partners in building a better government, where *"every man,"* as Thomas Jefferson once wrote, *"feels that he is a participator in the government of affairs."* 
+Ultimately, this strategy aims to be disruptive. It provides a platform to fundamentally shift how government connects with, and provides services to, the American people.* *It gives the federal workforce the tools needed to carry out their mission of delivering services to all citizens – whether to a warfighter in the field retrieving geospatial imagery information; a medical researcher sharing the latest bio specimen data sets for a rare form of cancer; or a rural farmer accessing a real-time forecast of seasonal precipitation. It creates a space for citizens to become partners in building a better government, where "*every man*," as Thomas Jefferson once wrote, "*feels that he is a participator in the government of affairs*." 
     
 ## Appendix: Roadmap Milestones
       
