@@ -93,6 +93,7 @@ table.action-items tr td:nth-child(3)
 {
   background-color:#B4CEE6;
   border-color:#2A5980;
+  width: 30%;
 }
 
 ul
@@ -169,6 +170,14 @@ tr.sub-section td
   text-align:center;
 }
 
+.box {
+
+
+}
+
+.left { float: left; margin-right: 20px;}
+.right { float: right; margin-left: 20px;}
+
 @media max-width620px {
   #seal
   {
@@ -186,6 +195,8 @@ tr.sub-section td
   {
     font-size:50px;
   }
+
+  .left, .right, .well { float: none; width: 100%; }
 }
 
 @media max-width768px {
